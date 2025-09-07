@@ -4,8 +4,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HealthCheckController {
-    @GetMapping("/health")
+    @GetMapping("/hello")
     public String health() {
-        return "Application is running health check!";
+        return "Hello, this is TalonMMA!";
     }
 }
